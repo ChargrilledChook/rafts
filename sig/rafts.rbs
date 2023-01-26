@@ -1,4 +1,7 @@
 module Rafts
   VERSION: String
   # See the writing guide of rbs: https://github.com/ruby/rbs#guides
+  class Application
+    def call: (untyped _env) -> [Integer, Hash[String, String], [String]]
+  end
 end

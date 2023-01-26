@@ -3,7 +3,7 @@ PATH
   specs:
     rafts (0.0.1)
       rack (~> 2.2)
-      webrick
+      webrick (~> 1.7)
 
 GEM
   remote: https://rubygems.org/
