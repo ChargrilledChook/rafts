@@ -14,3 +14,4 @@ gem "rubocop", "~> 1.21"
 gem "debug", "~> 1.7"
 gem "ruby-lsp", require: false
 gem "solargraph", require: false
+gem "typeprof"
